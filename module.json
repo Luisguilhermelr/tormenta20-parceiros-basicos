@@ -1,0 +1,47 @@
+{
+  "id": "tormenta20-parceiros-basicos",
+  "title": "Parceiros — Tipos Básicos (Tormenta20)",
+  "description": "Todos os tipos genéricos de parceiro e as montarias do livro básico de Tormenta20, nas versões iniciante, veterano e mestre (12 tipos de parceiro + 6 montarias). Cada item aplica os bônus constantes automaticamente ao ser adicionado à ficha; os bônus de \"1/rodada\", \"Ataque Furtivo\" e \"flanquear\" ficam em efeitos separados, desativados por padrão.",
+  "version": "1.0.0",
+  "authors": [
+    {
+      "name": "@xx_.luis._xx",
+      "url": "https://github.com/Luisguilhermelr"
+    }
+  ],
+  "compatibility": {
+    "minimum": "13",
+    "verified": "14"
+  },
+  "url": "https://github.com/Luisguilhermelr/tormenta20-parceiros-basicos",
+  "manifest": "https://github.com/Luisguilhermelr/tormenta20-parceiros-basicos/releases/latest/download/module.json",
+  "download": "https://github.com/Luisguilhermelr/tormenta20-parceiros-basicos/releases/latest/download/module.zip",
+  "readme": "https://github.com/Luisguilhermelr/tormenta20-parceiros-basicos/blob/main/README.md",
+  "bugs": "https://github.com/Luisguilhermelr/tormenta20-parceiros-basicos/issues",
+  "relationships": {
+    "systems": [
+      {
+        "id": "tormenta20",
+        "type": "system",
+        "compatibility": {
+          "minimum": "1.6.0",
+          "verified": "1.6.7"
+        }
+      }
+    ]
+  },
+  "packs": [
+    {
+      "name": "parceiros-basicos",
+      "label": "Parceiros — Tipos Básicos",
+      "type": "Item",
+      "path": "./packs/parceiros-basicos",
+      "system": "tormenta20",
+      "locked": true,
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "GAMEMASTER": "OWNER"
+      }
+    }
+  ]
+}
